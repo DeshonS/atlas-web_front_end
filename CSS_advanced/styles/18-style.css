@@ -499,8 +499,8 @@ h1, h2, h3, h4, h5, h6 {
   display: block;
   padding-left: 1rem;
   padding-right: 1rem;
-  padding-top: 0.5rem;
-  padding-bottom: 0.5rem;
+  padding-top: 0.05rem;
+  padding-bottom: 0.05rem;
 }
 
 .nav-item:hover .nav-link {
