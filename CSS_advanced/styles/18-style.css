@@ -383,7 +383,7 @@
     --nav-item-letter-spacing: 0.04em;
     --nav-item-display: inline-block;
     --nav-item-link-hover: var(--color-primary);
-
+    --nav-item-margin: 0 0 calc(1rem * 3) 0;
 }
 
 *, *::before, *::after {
@@ -488,6 +488,11 @@ h1, h2, h3, h4, h5, h6 {
   list-style-type: none;
 }
 
+.nav ul, .nav ol {
+  margin: 0;
+  padding: 0;
+}
+
 .nav .nav-item {
   font-family: var(--nav-item-font-family);
   font-weight: var(--nav-item-font-weight);
@@ -503,9 +508,13 @@ h1, h2, h3, h4, h5, h6 {
 
 .nav-link {
   display: block;
-  padding: calc(0.5 * 1rem) calc(1rem);
+  padding: calc(0.5 * 1rem) 1rem;
 }
 
 .nav-item:hover .nav-link {
   color: var(--nav-item-link-hover);
+}
+
+.navbar-menu {
+  float: right;
 }
