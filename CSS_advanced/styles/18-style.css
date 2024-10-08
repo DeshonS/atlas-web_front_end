@@ -482,12 +482,9 @@ h1, h2, h3, h4, h5, h6 {
 .nav {
   margin: 0;
   padding: 0;
-  padding-left: 1rem;
-  padding-right: 1rem;
-  padding-top: 0.5rem;
-  padding-bottom: 0.5rem;
   font-style: none;
   text-align: center;
+  list-style-type: none;
 }
 
 .nav .nav-item {
