@@ -382,7 +382,7 @@
     --nav-item-font-size: var(--font-size-medium);
     --nav-item-letter-spacing: 0.04em;
     --nav-item-display: inline-block;
-    --nav-item-link-hover: var(--color-primary);
+    --nav-item-link-hover: var(--color-white);
     --nav-item-margin: 0 0 calc(1rem * 3) 0;
     --section-tagline-margin:0;
     --button-display: inline-block;
@@ -662,4 +662,13 @@ ul.row {
   position: var(--header-logo-link-position);
   top: var(--header-logo-link-top);
   left: var(--header-logo-link-left);
+}
+
+.nav .nav:link::before {
+  content: none;
+  position: absolute;
+  position: 0 0;
+  background-color: var(--color-white);
+  width: 0;
+  height: 0.2rem;
 }
