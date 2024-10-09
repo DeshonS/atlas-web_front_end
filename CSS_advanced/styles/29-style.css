@@ -673,3 +673,8 @@ ul.row {
   left: 0;
   height: 0.2rem;
 }
+
+.nav .nav-link:hover::before {
+  background-color: var(--color-primary);
+  width: 100%;
+}
