@@ -667,7 +667,7 @@ ul.row {
 .nav .nav-link::before {
   content: "";
   position: absolute;
-  position: 0 0 0 0;
+  bottom: 0;
   background-color: var(--color-white);
   width: 0;
   height: 0.2rem;
