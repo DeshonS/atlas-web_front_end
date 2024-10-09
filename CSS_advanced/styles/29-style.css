@@ -664,7 +664,7 @@ ul.row {
   left: var(--header-logo-link-left);
 }
 
-.nav .nav:link::before {
+.nav .nav-link::before {
   content: none;
   position: absolute;
   position: 0 0;
